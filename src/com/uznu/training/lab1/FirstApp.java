@@ -1,4 +1,4 @@
-package com.uznu.training;
+package com.uznu.training.lab1;
 
 
 public class FirstApp {

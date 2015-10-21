@@ -1,7 +1,7 @@
-package homework;
+package com.uznu.training.lab2;
 
 
-public class GeometrichnuiRiad {
+public class TailorGeometric {
     public static void main(String[] args) {
         int i;
         double x = 6;

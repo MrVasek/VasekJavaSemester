@@ -1,9 +1,7 @@
-package practuchna;
+package com.uznu.training.lecture1;
 
-/**
- * Created by admin on 12.10.2015.
- */
-public class KvadratneRivnania {
+
+public class QuadraticEquation {
     public static void main(String[] args) {
         double a = 1;
         double b = 5;

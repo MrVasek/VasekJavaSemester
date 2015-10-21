@@ -1,7 +1,7 @@
-package lecture2.Taylor;
+package com.uznu.training.lab2;
 
 
-public class KvadratnuiKorin {
+public class SquareRoot {
 
     private static long fact(int x) {
         if (x < 2) {

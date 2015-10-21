@@ -1,8 +1,6 @@
-package lecture2.Taylor;
+package com.uznu.training.lab2;
 
-/**
- * Created by admin on 12.10.2015.
- */
+
 public class TaylorExponent {
     public static void main(String[] args) {
         int i;

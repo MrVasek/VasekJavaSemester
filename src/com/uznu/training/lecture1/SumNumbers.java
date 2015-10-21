@@ -1,9 +1,7 @@
-package practuchna;
+package com.uznu.training.lecture1;
 
-/**
- * Created by admin on 12.10.2015.
- */
-public class SumaChusel {
+
+public class SumNumbers {
     public static void main(String[] args) {
         int a = 1;
         int b = 9;

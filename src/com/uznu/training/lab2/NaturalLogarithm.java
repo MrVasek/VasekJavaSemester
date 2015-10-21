@@ -1,9 +1,7 @@
-package lecture2.Taylor;
+package com.uznu.training.lab2;
 
-/**
- * Created by admin on 13.10.2015.
- */
-public class Ln {
+
+public class NaturalLogarithm {
     public static void main(String[] args) {
         int i;
         double x = 10;
