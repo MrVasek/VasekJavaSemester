@@ -9,7 +9,7 @@ public class TaylorCos {
         double sum2 = 0;
         long fact = 1;
         double nominator = 1;
-        for (i = 1; i < 20; i++) ;
+        for (i = 1; i < 20; i++)
         {
             fact = fact * 2 * i * (2 * i + 1);
             nominator = nominator *x * x;

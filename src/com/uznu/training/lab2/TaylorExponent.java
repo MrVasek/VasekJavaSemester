@@ -9,7 +9,7 @@ public class TaylorExponent {
         long fact = 1;
         double nominator = 1;
         {
-            for (i = 1; i < 20; i++) ;
+            for (i = 1; i < 20; i++)
             fact = fact + i;
             nominator = nominator * x;
             result = result + nominator / fact;

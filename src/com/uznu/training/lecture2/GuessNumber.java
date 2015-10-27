@@ -7,7 +7,7 @@ public class GuessNumber {
     public static void main(String[] args) {
         int a = 100;
         int b = 0;
-        double c;
+        int c;
 
 
         c = (a + b) / 2;

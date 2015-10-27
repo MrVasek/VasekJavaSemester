@@ -9,10 +9,12 @@ public class NaturalLogarithm {
         double result = 1;
         double denominator = 1;
         {
-            for (i = 3; i < 20; i++) ;
-            nominator = nominator * Math.pow(-1, i) * Math.pow(x, i + 1);
-            denominator = denominator * (i + 1);
-            result = result * x + nominator/denominator;
+            for (i = 3; i < 20; i++) {
+                nominator = nominator * Math.pow(-1, i) * Math.pow(x, i + 1);
+                denominator = denominator * (i + 1);
+                result = result * x + nominator/denominator;
+            }
+
 
         }
            System.out.println(result);
