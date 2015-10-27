@@ -1,7 +1,7 @@
-package com.uznu.training.lab2;
+package com.uznu.training.lab2Taylor;
 
 
-public class TailorGeometric {
+public class TaylorGeometric {
     public static void main(String[] args) {
         int i;
         double x = 6;

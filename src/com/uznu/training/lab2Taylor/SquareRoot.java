@@ -1,4 +1,4 @@
-package com.uznu.training.lab2;
+package com.uznu.training.lab2Taylor;
 
 
 public class SquareRoot {
@@ -19,7 +19,7 @@ public class SquareRoot {
         double x = 8;
         int i;
         double result = 1;
-        double nominator = 1;
+        double nominator;
 
         for (i = 2; i < 5; i++) {
             nominator = Math.pow(x, i) * fact(2 * i) * (i % 2 == 0 ? -1 : 1);

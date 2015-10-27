@@ -1,4 +1,4 @@
-package com.uznu.training.lab2;
+package com.uznu.training.lab2Taylor;
 
 
 public class TaylorExponent {
@@ -10,12 +10,12 @@ public class TaylorExponent {
         double nominator = 1;
         {
             for (i = 1; i < 20; i++)
-            fact = fact + i;
+            fact = fact * i;
             nominator = nominator * x;
             result = result + nominator / fact;
         }
         System.out.println(result);
-        System.out.println(result - Math.E + Math.E);
+
     }
 
 }

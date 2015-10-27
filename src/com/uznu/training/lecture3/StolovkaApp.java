@@ -1,7 +1,7 @@
 package com.uznu.training.lecture3;
 
 
-public class Menu {
+public class StolovkaApp {
     public static void main(String[] args) {
         Dish[] dish = new Dish[5];
         dish[0] = new Dish(8, "Борщ", 49);

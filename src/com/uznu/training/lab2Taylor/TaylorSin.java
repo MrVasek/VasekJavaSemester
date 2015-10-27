@@ -1,4 +1,4 @@
-package com.uznu.training.lab2;
+package com.uznu.training.lab2Taylor;
 
 
 public class TaylorSin {
@@ -9,9 +9,9 @@ public class TaylorSin {
         double sum2 = 0;
         long fact = 1;
         double nominator = 1;
-        for (i = 1; i < 20; i++)
-        {
-            fact = fact * 2 * i * (2 * i + i);
+        double denominator = 1;
+        for (i = 1; i < 20; i++) {
+            fact = fact * (2 * i * (2 * i + 1));
             nominator = nominator * x * x;
             if (i % 2 == 0) {
                 sum2 = sum2 + nominator / fact;
