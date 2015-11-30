@@ -15,7 +15,7 @@ public class ContactList {
         nameWithPhone.put("Іван", 80893546);
         nameWithPhone.put("Тибі", 908915987);
         nameWithPhone.put("Юра", 123456789);
-        nameWithPhone.put("Jhonny", 1234564578);
+
 
         Set<Map.Entry<String, Integer>> entries = nameWithPhone.entrySet();
         for (Map.Entry<String, Integer> entry : entries) {
